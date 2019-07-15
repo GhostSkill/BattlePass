@@ -1,0 +1,23 @@
+bungeeMode:
+  ## Enable to one game per server.
+  ## Disable to work per world.
+  enabled: false
+  ## Enable to mode lobby in bungee mode.
+  lobby: false
+type: SOLO
+## Dont touch
+fillEmptyEnabled: false
+fillEmptySlots: STAINED_GLASS_PANE:4
+fillBackEnabled: false
+fillBackSlots: STAINED_GLASS_PANE:5
+actualDay: 18
+week: 1
+days: 1
+last: 18
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: Leonardo
+  username: Spigot
+  password: Plugin
