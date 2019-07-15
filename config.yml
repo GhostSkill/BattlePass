@@ -4,16 +4,20 @@ bungeeMode:
   enabled: false
   ## Enable to mode lobby in bungee mode.
   lobby: false
-type: SOLO
-## Dont touch
+## Enable to fill empty slots
 fillEmptyEnabled: false
+## Material to fill empty slots
 fillEmptySlots: STAINED_GLASS_PANE:4
+## Enable to fill back empty slots
 fillBackEnabled: false
+## Material to fill back empty slots
 fillBackSlots: STAINED_GLASS_PANE:5
+## Don't touch
 actualDay: 18
 week: 1
 days: 1
 last: 18
+## Put your MySQL or don't touch it if you don't have it.
 mysql:
   enabled: false
   host: 127.0.0.1
