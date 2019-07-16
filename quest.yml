@@ -1,0 +1,355 @@
+quest:
+  play:
+    id: play1
+    icon:
+      noStart:
+        material: EMPTY_MAP
+        data: 0
+        amount: 1
+      start:
+        material: PAPER
+        data: 0
+        amount: 1
+      name: "&aDaily Mission: Play 7 games in Solo"
+      lore: |-
+        &7Play 7 games in Mode Solo
+        &b(&e<now>&b/&e<need>&b)
+        &7
+        &e&lRewards:
+        &8+ &6100 Coins
+        &8+ &33 Experience
+        &7
+        &8&oDaily quests can only be
+        &8&ocomplete once a day.
+        &7
+        <status>
+    slot: 10
+    quest: PLAY
+    types:
+      - SOLO
+    max: 7
+    amount: 7
+    start: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>QUEST STARTED!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      &7<empty>
+      &7<empty>
+    message: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>PROGRESS!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      <progress>
+      &7<empty>
+      &7<empty>
+    finish: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>COMPLETED!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      &7<empty>
+      &e&lRewards:
+      &8+ &6100 Coins
+      &8+ &33 Experience
+      &7<empty>
+      &7<empty>
+    rewards:
+      - /eco give <player> 100
+      - /xp add <player> 3
+  play2:
+    id: play2
+    icon:
+      noStart:
+        material: EMPTY_MAP
+        data: 0
+        amount: 1
+      start:
+        material: PAPER
+        data: 0
+        amount: 1
+      name: "&aDaily Mission: Play 7 games in Team"
+      lore: |-
+        &7Play 7 games in Mode Team
+        &b(&e<now>&b/&e<need>&b)
+        &7
+        &e&lRewards:
+        &8+ &6150 Coins
+        &8+ &35 Experience
+        &7
+        &8&oDaily quests can only be
+        &8&ocomplete once a day.
+        &7
+        <status>
+    slot: 11
+    quest: PLAY
+    types:
+      - TEAM
+    max: 7
+    amount: 7
+    start: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>QUEST STARTED!
+      &aPlay &e7 &agames of &bSkyWars &cTeam
+      &7<empty>
+      &7<empty>
+    message: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>PROGRESS!
+      &aPlay &e7 &agames of &bSkyWars &cTeam
+      <progress>
+      &7<empty>
+      &7<empty>
+    finish: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>COMPLETED!
+      &aPlay &e7 &agames of &bSkyWars &cTeam
+      &7<empty>
+      &e&lRewards:
+      &8+ &6150 Coins
+      &8+ &35 Experience
+      &7<empty>
+      &7<empty>
+    rewards:
+      - /eco give <player> 150
+      - /xp add <player> 5
+  play3:
+    id: play3
+    icon:
+      noStart:
+        material: EMPTY_MAP
+        data: 0
+        amount: 1
+      start:
+        material: PAPER
+        data: 0
+        amount: 1
+      name: "&aDaily Mission: Play 7 games in Squad"
+      lore: |-
+        &7Play 7 games in Mode Squad
+        &b(&e<now>&b/&e<need>&b)
+        &7
+        &e&lRewards:
+        &8+ &6250 Coins
+        &8+ &315 Experience
+        &7
+        &8&oDaily quests can only be
+        &8&ocomplete once a day.
+        &7
+        <status>
+    slot: 12
+    quest: PLAY
+    types:
+      - SQUAD
+    max: 7
+    amount: 7
+    start: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>QUEST STARTED!
+      &aPlay &e7 &agames of &bSkyWars &cSquad
+      &7<empty>
+      &7<empty>
+    message: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>PROGRESS!
+      &aPlay &e7 &agames of &bSkyWars &cSquad
+      <progress>
+      &7<empty>
+      &7<empty>
+    finish: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>COMPLETED!
+      &aPlay &e7 &agames of &bSkyWars &cSquad
+      &7<empty>
+      &e&lRewards:
+      &8+ &6250 Coins
+      &8+ &315 Experience
+      &7<empty>
+      &7<empty>
+    rewards:
+      - /eco give <player> 250
+      - /xp add <player> 15
+  win1:
+    id: win1
+    icon:
+      noStart:
+        material: EMPTY_MAP
+        data: 0
+        amount: 1
+      start:
+        material: PAPER
+        data: 0
+        amount: 1
+      name: "&aDaily Mission: Win 3 games in Solo"
+      lore: |-
+        &7Win 3 games in Mode Solo
+        &b(&e<now>&b/&e<need>&b)
+        &7
+        &e&lRewards:
+        &8+ &6500 Coins
+        &8+ &310 Experience
+        &7
+        &8&oDaily quests can only be
+        &8&ocomplete once a day.
+        &7
+        <status>
+    slot: 14
+    quest: WIN
+    types:
+      - SOLO
+    max: 3
+    amount: 3
+    start: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>QUEST STARTED!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      &7<empty>
+      &7<empty>
+    message: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>PROGRESS!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      <progress>
+      &7<empty>
+      &7<empty>
+    finish: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>COMPLETED!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      &7<empty>
+      &e&lRewards:
+      &8+ &6500 Coins
+      &8+ &310 Experience
+      &7<empty>
+      &7<empty>
+    rewards:
+      - /eco give <player> 500
+      - /xp add <player> 10
+  win2:
+    id: win2
+    icon:
+      noStart:
+        material: EMPTY_MAP
+        data: 0
+        amount: 1
+      start:
+        material: PAPER
+        data: 0
+        amount: 1
+      name: "&aDaily Mission: Win 3 games in Team"
+      lore: |-
+        &7Win 3 games in Mode Team
+        &b(&e<now>&b/&e<need>&b)
+        &7
+        &e&lRewards:
+        &8+ &61500 Coins
+        &8+ &320 Experience
+        &7
+        &8&oDaily quests can only be
+        &8&ocomplete once a day.
+        &7
+        <status>
+    slot: 15
+    quest: WIN
+    types:
+      - TEAM
+    max: 3
+    amount: 3
+    start: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>QUEST STARTED!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      &7<empty>
+      &7<empty>
+    message: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>PROGRESS!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      <progress>
+      &7<empty>
+      &7<empty>
+    finish: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>COMPLETED!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      &7<empty>
+      &e&lRewards:
+      &8+ &61500 Coins
+      &8+ &320 Experience
+      &7<empty>
+      &7<empty>
+    rewards:
+      - /eco give <player> 1500
+      - /xp add <player> 20
+  win3:
+    id: win3
+    icon:
+      noStart:
+        material: EMPTY_MAP
+        data: 0
+        amount: 1
+      start:
+        material: PAPER
+        data: 0
+        amount: 1
+      name: "&aDaily Mission: Win 3 games in Squad"
+      lore: |-
+        &7Win 3 games in Mode Squad
+        &b(&e<now>&b/&e<need>&b)
+        &7
+        &e&lRewards:
+        &8+ &62500 Coins
+        &8+ &325 Experience
+        &7
+        &8&oDaily quests can only be
+        &8&ocomplete once a day.
+        &7
+        <status>
+    slot: 16
+    quest: WIN
+    types:
+      - SQUAD
+    max: 3
+    amount: 3
+    start: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>QUEST STARTED!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      &7<empty>
+      &7<empty>
+    message: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>PROGRESS!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      <progress>
+      &7<empty>
+      &7<empty>
+    finish: |-
+      &7<empty>
+      &7<empty>
+      &b&lMissions: &e&l<l>COMPLETED!
+      &aPlay &e7 &agames of &bSkyWars &cSolo
+      &7<empty>
+      &e&lRewards:
+      &8+ &62500 Coins
+      &8+ &325 Experience
+      &7<empty>
+      &7<empty>
+    rewards:
+      - /eco give <player> 2500
+      - /xp add <player> 25
