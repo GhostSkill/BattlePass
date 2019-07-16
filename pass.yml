@@ -1,0 +1,1209 @@
+pass:
+  daily:
+    survive:
+      id: s1d1survive
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fSurvives to &e150 &fopponents in
+          &fmode solo.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &36 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: SURVIVE_OPPONENT
+      types:
+        - SOLO
+      max: 15
+      amount: 150
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aSurvives to &e150 &aopponents in mode solo.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aSurvives to &e150 &aopponents in mode solo.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &36 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 6
+    survive2:
+      id: s1d1survive2
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fSurvives to &e150 &fopponents in
+          &fmodo team.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &36 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: SURVIVE_OPPONENT
+      types:
+        - TEAM
+      max: 15
+      amount: 150
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aSurvives to &e150 &aopponents in modo team.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aSurvives to &e150 &aopponents in modo team.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &36 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 6
+    survive3:
+      id: s1d1survive3
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fSurvives to &e150 &fopponents in
+          &fmodo trio.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &36 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: SURVIVE_OPPONENT
+      types:
+        - TRIO
+      max: 15
+      amount: 150
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aSurvives to &e150 &aopponents in modo trio.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aSurvives to &e150 &aopponents in modo trio.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &36 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 6
+    survive4:
+      id: s1d1survive4
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fSurvives to &e150 &fopponents in
+          &fmodo squad.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &36 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: SURVIVE_OPPONENT
+      types:
+        - SQUAD
+      max: 15
+      amount: 150
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aSurvives to &e150 &aopponents in modo squad.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aSurvives to &e150 &aopponents in modo squad.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &36 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 6
+    kill:
+      id: s1d1kill
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fEliminates &e50 &fopponents in
+          &fmode solo.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: KILL
+      types:
+        - SOLO
+      max: 10
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aEliminates &e50 &aopponents in mode solo.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aEliminates &e50 &aopponents in mode solo.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    kill2:
+      id: s1d1kill2
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fEliminates &e50 &fopponents in
+          &fmodo team.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: KILL
+      types:
+        - TEAM
+      max: 10
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aEliminates &e50 &aopponents in modo team.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aEliminates &e50 &aopponents in modo team.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    kill3:
+      id: s1d1kill3
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fEliminates &e50 &fopponents in
+          &fmodo trios.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: KILL
+      types:
+        - TRIO
+      max: 10
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aEliminates &e50 &aopponents in modo trios.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aEliminates &e50 &aopponents in modo trios.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    kill4:
+      id: s1d1kill4
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fEliminates &e50 &fopponents in
+          &fmodo squad.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: KILL
+      types:
+        - SQUAD
+      max: 10
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aEliminates &e50 &aopponents in modo squad.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aEliminates &e50 &aopponents in modo squad.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    openchest:
+      id: s1d1openchest
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fOpens to &e100 &fchests in
+          &fmode solo.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: OPEN_CHEST
+      types:
+        - SOLO
+      max: 10
+      amount: 100
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aOpens to &e50 &achests in mode solo.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aOpens to &e50 &achests in mode solo.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    openchest2:
+      id: s1d1openchest2
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fOpens to &e100 &fchests in
+          &fmodo team.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: OPEN_CHEST
+      types:
+        - TEAM
+      max: 10
+      amount: 100
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aOpens to &e50 &achests in modo team.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aOpens to &e50 &achests in modo team.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    openchest3:
+      id: s1d1openchest3
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fOpens to &e100 &fchests in
+          &fmodo trios.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: OPEN_CHEST
+      types:
+        - TRIO
+      max: 10
+      amount: 100
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aOpens to &e50 &achests in modo trios.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aOpens to &e50 &achests in modo trios.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    openchest4:
+      id: s1d1openchest4
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aDaily Challenge"
+        lore: |-
+          &fOpens to &e100 &fchests in
+          &fmodo squad.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: OPEN_CHEST
+      types:
+        - SQUAD
+      max: 10
+      amount: 100
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aOpens to &e50 &achests in modo squad.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aOpens to &e50 &achests in modo squad.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+  weeks:
+    fishing:
+      id: s1w2fishing
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 1"
+        lore: |-
+          &fFishing &e50 &ffishes
+          &7
+          &6&lRewards:
+          &8+ &e10 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 2
+      slot: 12
+      free: true
+      challenge: FISHING_CAUGHT_FISH
+      types:
+        - WEATHER
+      max: 10
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aFishing &e50 &afishes
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aFishing &e50 &afishes
+        &7<empty>
+        &6&lRewards:
+        &8+ &e10 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:10
+        - /xp add <player> 3
+    fishing2:
+      id: s1w2fishing2
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 2"
+        lore: |-
+          &fFishing &e50 &fentitys
+          &7
+          &6&lRewards:
+          &8+ &e10 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 2
+      slot: 13
+      free: true
+      challenge: FISHING_CAUGHT_ENTITY
+      types:
+        - DIAMOND_BOOTS
+        - IRON_BOOTS
+      max: 10
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aFishing &e50 &fentitys
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aFishing &e50 &fentitys
+        &7<empty>
+        &6&lRewards:
+        &8+ &e10 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:10
+        - /xp add <player> 3
+    enchant:
+      id: s1w2enchant
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 3"
+        lore: |-
+          &fEnchant &e50 &fdiamond boots
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &34 Global Experience
+          &7
+          <progress>
+      week: 2
+      slot: 14
+      free: true
+      challenge: ENCHANT
+      types:
+        - DIAMOND_BOOTS
+      max: 10
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aEnchant &e50 &adiamond boots
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aEnchant &e50 &adiamond boots
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &34 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 4
+    craft:
+      id: s1w2craft
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 4"
+        lore: |-
+          &fCraft &e50 &fswords
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &34 Global Experience
+          &7
+          <progress>
+      week: 2
+      slot: 29
+      free: false
+      challenge: CRAFT
+      types:
+        - DIAMOND_SWORD
+        - WOOD_SWORD
+        - IRON_SWORD
+        - GOLD_SWORD
+        - STONE_SWORD
+      max: 10
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aCraft &e50 &aswords
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aCraft &e50 &aswords
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &34 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 4
+    2shot:
+      id: s1w1shot
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 5"
+        lore: |-
+          &fHits &e35 &farrows to players
+          &fin the games.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 2
+      slot: 30
+      free: false
+      challenge: SHOT
+      types:
+        - BOW
+      max: 7
+      amount: 35
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aHits &e35 &aarrows to players in the games.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aHits &e35 &aarrows to players in the games.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 6
+    2breakchest:
+      id: s1w1breakchest
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 6"
+        lore: |-
+          &fBreak &e50 &fchests of games
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 2
+      slot: 32
+      free: false
+      challenge: BREAK_ORE
+      types:
+        - CHEST
+      max: 25
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aBreak &e50 &achests of games
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aBreak &e50 &achests of games
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    2shotdistance:
+      id: s1w1shotdistance
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 7"
+        lore: |-
+          &fHits &e20 &farrows at &e15
+          &fblocks of distance.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 2
+      slot: 33
+      free: false
+      challenge: SHOT_ARROW_DISTANCE
+      types:
+        - 15
+      max: 20
+      amount: 20
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aHits &e20 &aarrows at &e15 &ablocks of distance.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aHits &e20 &aarrows at &e15 &ablocks of distance.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    damage:
+      id: s1w1damage
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 1"
+        lore: |-
+          &fProduce &e500 &fof damage with the sword
+          &fof &7Stone &fin games.
+          &7
+          &6&lRewards:
+          &8+ &e10 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 12
+      free: true
+      challenge: DAMAGE_SWORD
+      types:
+        - STONE_SWORD
+      max: 10
+      amount: 500
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aProduce &b500 &aof damage with the sword de piedra
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aProduce &b500 &aof damage with the sword de piedra
+        &7<empty>
+        &6&lRewards:
+        &8+ &e10 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:10
+        - /xp add <player> 3
+    damage2:
+      id: s1w1damage2
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 2"
+        lore: |-
+          &fProduce &e350 &fof damage with the bow
+          &fin games.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 13
+      free: true
+      challenge: DAMAGE_BOW
+      types:
+        - BOW
+      max: 7
+      amount: 350
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aProduce &e350 &aof damage with the bow
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aProduce &e350 &aof damage with the bow
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    breakore:
+      id: s1w1breakore
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 3"
+        lore: |-
+          &fBreak &e50 &fores of the
+          &fislands in games.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &34 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 14
+      free: true
+      challenge: BREAK_ORE
+      types:
+        - DIAMOND_ORE
+        - GOLD_ORE
+        - IRON_ORE
+        - EMERALD_ORE
+        - LAPIS_ORE
+        - COAL_ORE
+        - REDSTONE_ORE
+        - GLOWING_REDSTONE_ORE
+        - QUARTZ_ORE
+      max: 10
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aBreak &e50 &aores of the islands in games.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aBreak &e50 &aores of the islands in games.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &34 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 4
+    resisdamage:
+      id: s1w1resisdamage
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 4"
+        lore: |-
+          &fResists &e450 &fof damage with swords
+          &fof the opponents in games.
+          &7
+          &6&lRewards:
+          &8+ &e10 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 29
+      free: false
+      challenge: RESIST_DAMAGE
+      types:
+        - STONE_SWORD
+        - IRON_SWORD
+        - DIAMOND_SWORD
+        - WOOD_SWORD
+      max: 9
+      amount: 450
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aResists &e450 &aof damage with swords in games.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aResists &e450 &aof damage with swords in games.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e10 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:10
+        - /xp add <player> 8
+    shot:
+      id: s1w1shot
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 5"
+        lore: |-
+          &fHits &e35 &farrows to players
+          &fin the games.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 30
+      free: false
+      challenge: SHOT
+      types:
+        - BOW
+      max: 7
+      amount: 35
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aHits &e35 &aarrows to players in the games.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aHits &e35 &aarrows to players in the games.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 6
+    breakchest:
+      id: s1w1breakchest
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 6"
+        lore: |-
+          &fBreak &e50 &fchests of games
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 32
+      free: false
+      challenge: BREAK_ORE
+      types:
+        - CHEST
+      max: 25
+      amount: 50
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aBreak &e50 &achests of games
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aBreak &e50 &achests of games
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
+    shotdistance:
+      id: s1w1shotdistance
+      icon:
+        material: PAPER
+        data: 0
+        amount: 1
+        name: "&aChallenge 7"
+        lore: |-
+          &fHits &e20 &farrows at &e15
+          &fblocks of distance.
+          &7
+          &6&lRewards:
+          &8+ &e5 Battle Stars
+          &8+ &33 Global Experience
+          &7
+          <progress>
+      week: 1
+      slot: 33
+      free: false
+      challenge: SHOT_ARROW_DISTANCE
+      types:
+        - 15
+      max: 20
+      amount: 20
+      message: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>PROGRESS!
+        &aHits &e20 &aarrows at &e15 &ablocks of distance.
+        <progress>
+        &7<empty>
+        &7<empty>
+      finish: |-
+        &7<empty>
+        &7<empty>
+        &b&lChallenges: &e&l<l>COMPLETED!
+        &aHits &e20 &aarrows at &e15 &ablocks of distance.
+        &7<empty>
+        &6&lRewards:
+        &8+ &e5 Battle Stars
+        &8+ &33 Global Experience
+        &7<empty>
+        &7<empty>
+      rewards:
+        - STAR:5
+        - /xp add <player> 3
