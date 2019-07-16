@@ -1,0 +1,136 @@
+status:
+  started: "&a<l>You have already started this mission!"
+  noStart: "&e<l>Click to start this mission!"
+  noDay: "&c<l>You can only start the mission once a day!"
+week:
+  open: "&e<l>Click to open!"
+  need: "&c<l>Missing &e<days> &cdays!"
+messages:
+  alreadyStart: "&e&lBattlePass &8| &cYou have already started this mission."
+  questTime: "&e&lBattlePass &8| &cYou can only start this mission once a day."
+  enabledQuest: "&e&lBattlePass &8| &aAuto Mission mode has been activated."
+  disabledQuest: "&e&lBattlePass &8| &cAuto Mission mode has been desactivated."
+  needDays: "&e&lBattlePass &8| &cNot yet reached this week."
+  autoEnabled: "&e&lBattlePass &8| &aThe quest have been automatically activated."
+  noPermission: "&e&lBattlePass &8| &cYou dont have permissions."
+  noOnline: "&e&lBattlePass &8| &cThe players is not online."
+  noNumber: "&e&lBattlePass &8| &cPlease put a valid amount."
+  noChallengeType: "&e&lBattlePass &8| &cThis type of challenge does not exist."
+  noQuestType: "&e&lBattlePass &8| &cThis type of quest does not exist."
+  addedProgress: "&e&lBattlePass &8| &aProgress was added to &7<player>&a in type &e<type>&a with subtype &e<subtype>&a amount of &b<amount>&a."
+  stars:
+    add:
+      you: "&aYou have added to &e<player> &6+<amount> stars."
+      target: |-
+        "&7&m---------------------------------------------"
+        "&aYou have received &6+<amount> stars."
+        "&7&m---------------------------------------------"
+    remove:
+      you: "&aYou have remove to &e<player> &6-<amount> stars."
+      target: |-
+        "&7&m---------------------------------------------"
+        "&aYou have taken off &6-<amount> stars."
+        "&7&m---------------------------------------------"
+    set:
+      you: "&aYou have set to &e<player> &6+<amount> stars."
+      target: |-
+        "&7&m---------------------------------------------"
+        "&aYour stars now is &6<amount>."
+        "&7&m---------------------------------------------"
+menus:
+  rewards:
+    title: "&8Battle Rewards"
+    add:
+      nameItem: "&aNext Page"
+      loreItem: |-
+        &7Click to view next page of rewards.
+    remove:
+      nameItem: "&aLast page"
+      loreItem: |-
+        &7Click to view last page of rewards.
+  challenge:
+    back:
+      nameItem: "&aBack"
+      loreItem: |-
+        &7Click to back
+        &7at last menu.
+    daily:
+      title: "&aDaily challenges"
+    weeks:
+      main:
+        title: "&aWeekly challenges"
+        week:
+          nameItem: "&aWeek <week>"
+          loreItem: |-
+            &7Open the menu of challenges
+            &7of the week number <week>.
+            &7
+            <status>
+      week:
+        title: "&aWeek <week>"
+    main:
+      title: "&e&lBattlePass"
+      daily:
+        nameItem: "&aDaily challenges"
+        loreItem: |-
+          &7These challenges are daily
+          &7you will have maximum &e3 &7challenges
+          &7accumulated and you will appear
+          &e1 &7every day.
+          &7
+          &e<l>Click to open!
+      week:
+        nameItem: "&aWeekly challenges"
+        loreItem: |-
+          &7These challenges are weekly
+          &7you will have maximum &e7 &7challenges
+          &7per week and &e7 &every week.
+          &7
+          &e<l>Click to open!
+      rewards:
+        nameItem: "&aBattle Rewards"
+        loreItem: |-
+          &7The battle rewards are
+          &7give automatically when you arrive
+          &7to &e10 &7stars and level up
+          &7if you do not have the pass purchased
+          &7you will only receive free rewards.
+          &7
+          &e<l>Click to open crewards!
+      info:
+        nameItem: "&eInformation"
+        loreItem: |-
+          &7With the battle pass
+          &7at the moment you can only
+          &7win &6Coins.
+          &7
+          &6Battle Stars: &e<stars>&b/&610
+          &6Battle Level: &e<level>
+          &7
+          &e<l>Click to open challanges!
+  quest:
+    title: "&aMisiones"
+    auto:
+      enabled:
+        nameItem: "&aActivate missions automatically"
+        loreItem: |-
+          &7By having this option checked every
+          &7time you enter a lobby the missions
+          &7you will be automatically activated.
+          &7
+          &cNeed rank: &aLeyend
+      disabled:
+        nameItem: "&cDisable missions automatically"
+        loreItem: |-
+          &7By having this option checked every
+          &7time you enter a lobby the missions
+          &7you will be do not automatically activated.
+          &7
+          &cNeed rank: &aLeyend
+    info:
+      nameItem: "&eInformation"
+      loreItem: |-
+        &7Daily Quests help you win
+        &7coins, experience and souls
+        &7call your friends to meet
+        &7the missions as fast as possible.
